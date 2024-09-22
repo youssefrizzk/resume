@@ -1,0 +1,71 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Black background */
+    color: yellow; /* Yellow text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.main-header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: blue; /* Blue header */
+    color: yellow; /* Yellow text */
+}
+
+h1, h2 {
+    color: yellow; /* Yellow headings */
+}
+
+/* Contact Form */
+.contact-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    background-color: #333; /* Dark form background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
+}
+
+button {
+    background-color: blue; /* Blue button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: yellow; /* Yellow hover effect */
+    color: black; /* Black text on hover */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}
+
+#toggle-btn {
+    margin-top: 20px;
+    background-color: yellow;
+    color: black;
+}
